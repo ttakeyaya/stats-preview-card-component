@@ -29,7 +29,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/ttakeyaya/stats-preview-card-component/tree/master)
-- Live Site URL: [Add live site URL here]
+- Live Site URL: [Add live site URL here](https://ttakeyaya.github.io/stats-preview-card-component/)
 
 ## My process
 
