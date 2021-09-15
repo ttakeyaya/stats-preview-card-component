@@ -7,13 +7,13 @@
   border-radius: 15px;
   padding-left: 71.5px;
 
-  @media screen and (max-width: 375px) {
-    // reset the position of the card====
-    align-self: flex-start;
-    // =====
+  @media screen and (max-width: 1000px) {
+    // // reset the position of the card====
+    // align-self: flex-start;
+    // // =====
 
     flex-direction: column;
-    width: 327px;
+    width: 85%;
     height: auto;
     margin-left: 24px;
     margin-right: 24px;
@@ -33,14 +33,14 @@
     .card__img-mobile {
       display: none;
     }
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 1000px) {
       .card__img-desktop {
         display: none;
       }
       .card__img-mobile {
         width: 100%;
         display: block;
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 1000px) {
           border-top-left-radius: 10px;
           border-top-right-radius: 10px;
         }
@@ -67,7 +67,7 @@
     justify-content: space-around;
     max-width: 100%;
     padding-top: 45px;
-    @media screen and (max-width: 375px) {
+    @media screen and (max-width: 1000px) {
       padding-top: 0;
       margin-left: 31px;
       margin-right: 31px;
@@ -79,7 +79,7 @@
       .card--saturated {
         color: var(--color-primary-soft-violet);
       }
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 1000px) {
         margin-top: 40px;
         font-size: 28px;
         line-height: 32px;
@@ -92,9 +92,10 @@
       line-height: 25px;
       align-self: flex-start;
       color: var(--color-neutral-transparent-white);
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 1000px) {
         margin-top: 16px;
         line-height: 25px;
+        align-self: center;
       }
     }
     .card__stats {
@@ -105,19 +106,19 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      @media screen and (max-width: 375px) {
+      @media screen and (max-width: 1000px) {
         padding-top: 40px;
         flex-direction: column;
         padding-right: 0;
       }
       .card__stats--item {
-        @media screen and (max-width: 375px) {
+        @media screen and (max-width: 1000px) {
           margin-top: 24px;
         }
         .card__stats--item-text {
           font-size: 24px;
           font-weight: 700;
-          @media screen and (max-width: 375px) {
+          @media screen and (max-width: 1000px) {
             font-size: 24px;
           }
         }

@@ -53,11 +53,10 @@ body {
   border-radius: 15px;
   padding-left: 71.5px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
   .card {
-    align-self: flex-start;
     flex-direction: column;
-    width: 327px;
+    width: 85%;
     height: auto;
     margin-left: 24px;
     margin-right: 24px;
@@ -79,7 +78,7 @@ body {
 .card .card__img-container .card__img-mobile {
   display: none;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
   .card .card__img-container .card__img-desktop {
     display: none;
   }
@@ -88,7 +87,7 @@ body {
     display: block;
   }
 }
-@media screen and (max-width: 375px) and (max-width: 375px) {
+@media screen and (max-width: 1000px) and (max-width: 1000px) {
   .card .card__img-container .card__img-mobile {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
@@ -115,7 +114,7 @@ body {
   max-width: 100%;
   padding-top: 45px;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
   .card .card__body {
     padding-top: 0;
     margin-left: 31px;
@@ -129,7 +128,7 @@ body {
 .card .card__body .card__title .card--saturated {
   color: var(--color-primary-soft-violet);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
   .card .card__body .card__title {
     margin-top: 40px;
     font-size: 28px;
@@ -144,10 +143,11 @@ body {
   align-self: flex-start;
   color: var(--color-neutral-transparent-white);
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
   .card .card__body .card__contents {
     margin-top: 16px;
     line-height: 25px;
+    align-self: center;
   }
 }
 .card .card__body .card__stats {
@@ -159,14 +159,14 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
   .card .card__body .card__stats {
     padding-top: 40px;
     flex-direction: column;
     padding-right: 0;
   }
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
   .card .card__body .card__stats .card__stats--item {
     margin-top: 24px;
   }
@@ -175,7 +175,7 @@ body {
   font-size: 24px;
   font-weight: 700;
 }
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 1000px) {
   .card .card__body .card__stats .card__stats--item .card__stats--item-text {
     font-size: 24px;
   }
