@@ -28,8 +28,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Add solution URL here]
+- Live Site URL: [Add live site URL here]
 
 ## My process
 
@@ -55,5 +55,4 @@ The mix-blend-mode CSS property was useful to blend colors without PhotoShop.
 
 ## Author
 
-- Website - [ttakeyaya](https://www.your-site.com)
-- Frontend Mentor - [Take](https://www.frontendmentor.io/profile/yourusername)
+- Frontend Mentor - [Take](https://www.frontendmentor.io/profile/ttakeyaya)
