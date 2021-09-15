@@ -1,0 +1,58 @@
+/** 
+-Import Google Fonts and Define font variables
+-Define color varibalbes
+-Reset CSS properties(margin, padding)
+*/
+
+// Google Fonts
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap");
+
+// Font variables
+$inter: "Inter", sans-serif;
+$lexend: "Lexend Deca", sans-serif;
+
+// Colors
+:root {
+  --color-primary-very-dark-blue: hsl(233, 47%, 7%);
+  --color-primary-desaturated-blue: hsl(244, 38%, 16%);
+  --color-primary-soft-violet: hsl(277, 64%, 61%);
+
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-transparent-white: hsla(0, 0%, 100%, 0.75);
+  --color-neutral-transparent-white2: hsla(0, 0%, 100%, 0.6);
+}
+
+// Resetting
+* {
+  padding: 0;
+  margin: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+body {
+  // center the card===
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  // ===
+
+  font-family: $inter;
+  background-color: var(--color-primary-very-dark-blue);
+  color: var(--color-neutral-white);
+  min-height: 100vh;
+}
+
+.attribution {
+  margin-top: 30px;
+}
